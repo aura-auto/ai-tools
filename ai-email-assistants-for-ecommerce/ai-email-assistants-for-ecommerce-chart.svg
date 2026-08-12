@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-label="Diagram grouping five AI email tools for e-commerce into three jobs: writing, marketing automation with built-in AI, and support">
+  <rect width="720" height="400" fill="#ffffff"/>
+  <text x="360" y="30" font-family="Arial, sans-serif" font-size="17" font-weight="bold" text-anchor="middle" fill="#1a1a1a">AI email assistants for e-commerce by job (verified Aug 2026)</text>
+
+  <!-- Writing column -->
+  <rect x="30" y="70" width="200" height="60" rx="8" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="130" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4c1d95">Writing copy</text>
+  <text x="130" y="118" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Jasper: $59/mo yearly, $69 monthly</text>
+
+  <!-- Marketing column -->
+  <rect x="260" y="70" width="200" height="60" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="360" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0c4a6e">Marketing + built-in AI</text>
+  <text x="360" y="118" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Klaviyo, Mailchimp, Omnisend</text>
+
+  <!-- Support column -->
+  <rect x="490" y="70" width="200" height="60" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="590" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#78350f">Support email</text>
+  <text x="590" y="118" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Gorgias AI agent on every plan</text>
+
+  <!-- Verified free-tier / pricing notes -->
+  <text x="55" y="185" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a">Verified free tiers and pricing (official pages):</text>
+  <text x="55" y="210" font-family="Arial, sans-serif" font-size="12" fill="#333">Omnisend - free: 250 contacts, 500 emails + 500 web push/mo; paid from billable contacts</text>
+  <text x="55" y="230" font-family="Arial, sans-serif" font-size="12" fill="#333">Klaviyo - free to start with Email &amp; SMS; pricing scales with contacts</text>
+  <text x="55" y="250" font-family="Arial, sans-serif" font-size="12" fill="#333">Mailchimp - free under 250 contacts; Standard has a 14-day trial</text>
+  <text x="55" y="270" font-family="Arial, sans-serif" font-size="12" fill="#333">Jasper - Pro $59/mo yearly or $69/mo monthly; 7-day trial; Business custom</text>
+  <text x="55" y="290" font-family="Arial, sans-serif" font-size="12" fill="#333">Gorgias - AI agent on every plan, pay only when a conversation is resolved</text>
+
+  <rect x="55" y="320" width="610" height="55" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="70" y="342" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a">Picking tip: the AI already built into your store's email platform is the fastest,</text>
+  <text x="70" y="360" font-family="Arial, sans-serif" font-size="12" fill="#1a1a1a">lowest-friction win. Add Jasper only for heavy copy volume; use Gorgias only if tickets are the bottleneck.</text>
+  <text x="70" y="380" font-family="Arial, sans-serif" font-size="11" fill="#666">Source: vendor pricing/product pages, August 2026.</text>
+</svg>
