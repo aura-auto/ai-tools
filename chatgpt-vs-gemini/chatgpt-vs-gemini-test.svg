@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="Three-step decision flow for choosing between ChatGPT and Gemini">
+  <rect width="640" height="300" fill="#ffffff"/>
+  <text x="320" y="36" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">How to choose in five minutes</text>
+  <!-- Step 1 -->
+  <rect x="30" y="70" width="180" height="90" rx="10" fill="#e8f0fe" stroke="#4285f4" stroke-width="2"/>
+  <text x="120" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">1. Pick 3 real tasks</text>
+  <text x="120" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">drafting, research, coding,</text>
+  <text x="120" y="137" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">or data analysis you do weekly</text>
+  <!-- Arrow -->
+  <path d="M215 115 L245 115" stroke="#888" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Step 2 -->
+  <rect x="250" y="70" width="180" height="90" rx="10" fill="#e6f4ea" stroke="#188038" stroke-width="2"/>
+  <text x="340" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">2. Run both free tiers</text>
+  <text x="340" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">identical prompts on ChatGPT Free</text>
+  <text x="340" y="137" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">and Gemini Free; note usage limits</text>
+  <!-- Arrow -->
+  <path d="M435 115 L465 115" stroke="#888" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Step 3 -->
+  <rect x="470" y="70" width="160" height="90" rx="10" fill="#fef7e0" stroke="#b06000" stroke-width="2"/>
+  <text x="550" y="98" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">3. Pay monthly</text>
+  <text x="550" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">one month of the ~$20 tier,</text>
+  <text x="550" y="137" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">re-check every few months</text>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#888"/></marker>
+  </defs>
+  <text x="320" y="205" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#555">Storage check: already paying for Google Drive? Gemini plans upgrade it to 2-5 TB at $9.99/$19.99.</text>
+  <text x="320" y="230" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#555">Team check: on Google Workspace? Gemini is included at $7-$22 per user. ChatGPT Business is separate.</text>
+  <text x="320" y="265" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#777">Prices from official pages, August 2026.</text>
+</svg>
