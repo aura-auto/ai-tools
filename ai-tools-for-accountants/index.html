@@ -19,6 +19,21 @@
 <meta name="twitter:image" content="https://toolmuse.co/og-card.png">
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5ddb724e236845cfb7812063b1ac308a"}'></script>
 <script type='text/javascript'>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/y14co2n9ty";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "y14co2n9ty");</script>
+<script>
+(function(){
+  function track(ev, el){
+    try{ if(window.clarity){ clarity('event', ev, {url: el.href || ''}); } }catch(e){}
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest ? e.target.closest('a') : null;
+    if(!a || !a.href) return;
+    var isAff = a.rel && /nofollow/i.test(a.rel) && /^https?:\/\//i.test(a.href) && a.hostname !== location.hostname;
+    var inTable = a.closest('table') !== null;
+    if(isAff){ track('affiliate_click', a); }
+    if(inTable && isAff){ track('table_cta_click', a); }
+  });
+})();
+</script>
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "AI Tools for Accountants (2026): 8 Picks Compared", "datePublished": "2026-08-12", "dateModified": "2026-08-12", "description": "Best AI tools for accountants in 2026: Zoho Books, Everlance, Xero, QuickBooks with verified pricing, free tiers, and how to choose without wasting money.", "author": {"@type": "Organization", "name": "Aura Editorial"}, "publisher": {"@type": "Organization", "name": "AI Tools Finder"}, "mainEntityOfPage": "https://toolmuse.co/ai-tools-for-accountants/"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://toolmuse.co/"}, {"@type": "ListItem", "position": 2, "name": "AI Tools for Accountants (2026): 8 Picks Compared", "item": "https://toolmuse.co/ai-tools-for-accountants/"}]}</script>
