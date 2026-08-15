@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Omnisend plan pricing and email limits">
+  <rect width="640" height="400" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">Omnisend plans: price vs monthly email volume</text>
+  <text x="320" y="54" text-anchor="middle" font-size="12" fill="#666">From the official Omnisend pricing page (2026-08-14). Price is current promo monthly billing.</text>
+
+  <!-- axis -->
+  <line x1="70" y1="320" x2="600" y2="320" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="60" x2="70" y2="320" stroke="#333" stroke-width="2"/>
+
+  <!-- y labels: value 0-2500 emails, scale 100 emails = 10px -->
+  <!-- Free: 500 emails (50px), Standard: 6000 shown as log-ish, use cap -->
+  <!-- We'll plot Free=500, Standard=6000, Pro=Unlimited(2400 cap bar with * ) -->
+
+  <!-- gridlines -->
+  <line x1="70" y1="320" x2="600" y2="320" stroke="#ddd"/>
+  <line x1="70" y1="270" x2="600" y2="270" stroke="#ddd"/>
+  <line x1="70" y1="220" x2="600" y2="220" stroke="#ddd"/>
+  <line x1="70" y1="170" x2="600" y2="170" stroke="#ddd"/>
+  <line x1="70" y1="120" x2="600" y2="120" stroke="#ddd"/>
+  <text x="60" y="324" text-anchor="end" font-size="11" fill="#333">0</text>
+  <text x="60" y="274" text-anchor="end" font-size="11" fill="#333">500</text>
+  <text x="60" y="224" text-anchor="end" font-size="11" fill="#333">1,000</text>
+  <text x="60" y="174" text-anchor="end" font-size="11" fill="#333">1,500</text>
+  <text x="60" y="124" text-anchor="end" font-size="11" fill="#333">2,000</text>
+
+  <!-- Free bar: 500 emails -> 50px height -->
+  <rect x="110" y="270" width="80" height="50" fill="#5aa9e6"/>
+  <text x="150" y="262" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">500</text>
+  <text x="150" y="348" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Free</text>
+  <text x="150" y="364" text-anchor="middle" font-size="12" fill="#666">$0/mo</text>
+
+  <!-- Standard bar: 6000 emails, cap plot at ~75% visually with label 6,000 -->
+  <rect x="250" y="120" width="80" height="200" fill="#ffb84d"/>
+  <text x="290" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">6,000</text>
+  <text x="290" y="348" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Standard</text>
+  <text x="290" y="364" text-anchor="middle" font-size="12" fill="#666">~$11.20/mo</text>
+
+  <!-- Pro bar: Unlimited emails, plot cap (2,500+ shown) -->
+  <rect x="390" y="70" width="80" height="250" fill="#7bc67e"/>
+  <text x="430" y="62" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">Unlimited*</text>
+  <text x="430" y="348" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Pro</text>
+  <text x="430" y="364" text-anchor="middle" font-size="12" fill="#666">~$41.30/mo</text>
+
+  <!-- y title -->
+  <text x="20" y="190" text-anchor="middle" font-size="11" fill="#666" transform="rotate(-90 20 190)">Monthly emails</text>
+
+  <text x="320" y="392" text-anchor="middle" font-size="10" fill="#777">*Pro sends unlimited emails (fair use up to 60x list on Pro). Bar heights approximate: Free 500, Standard 6,000 scaled.</text>
+</svg>
